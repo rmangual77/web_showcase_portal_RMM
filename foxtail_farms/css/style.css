@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap");
+
 .container {
   max-width: 960px;
   /* background-color: #e1a177; */
@@ -11,6 +14,7 @@
   background-color: #e1a177;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
+  font-family: lobster;
 }
 .site-header a {
   color: #000000;
@@ -34,6 +38,7 @@
   background-color: #e1a177;
   border-radius: 21px;
   transform: rotate(30deg);
+  font-family: montserrat;
 }
 
 .product-device::before {
@@ -66,4 +71,23 @@
   .flex-md-equal > * {
     flex: 1;
   }
+}
+
+h1 {
+  font-family: lobster;
+}
+
+h2 {
+  font-family: lobster;
+}
+h5 {
+  font-family: lobster;
+}
+
+li {
+  font-family: montserrat;
+}
+
+p {
+  font-family: montserrat;
 }
